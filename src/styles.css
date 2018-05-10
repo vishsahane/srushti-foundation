@@ -2,18 +2,45 @@
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-.main-container{
-    height:90vh;
-}
   .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 40px;
-    background-color: #f5f5f5;
+    background-color: transparent;
   }
 
 .text-center{
     text-align: center
+}
+.app-logo{
+    max-width: 150px;
+    margin-right: 20px;
+}
+mat-toolbar .mat-button{
+    font-size:18px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{    
+    background: url(./assets/images/banner-bg.jpg) no-repeat left bottom / cover;
+    margin: 0px;
+    z-index: 2;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.mat-drawer-container{
+    background-color: transparent;
+}
+.contribute{
+    font-size: 72px;
+}
+.home-section{
+    position: relative
+}
+.home-section h1{
+    font-size: 68px;
+    text-align: center;
 }
