@@ -26,13 +26,13 @@ html,body{
     width: 100%;
 }
 body{    
-    background: url(./assets/images/banner-bg.jpg) no-repeat left bottom / cover;
+    background: url(./assets/images/banner-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
     margin: 0px;
-    box-sizing: border-box;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .mat-sidenav-container{
-    height: 325px!important;
+    min-height: 325px!important;
 }
 .mat-drawer-container{
     background-color: transparent;
@@ -46,6 +46,9 @@ body{
 .home-section h1{   
     font-size: 68px;
     text-align: center;
+}
+.gallery-card{
+    /* max-width: 80%; */
 }
 
 
