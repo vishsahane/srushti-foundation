@@ -31,6 +31,9 @@ body{
     box-sizing: border-box;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.mat-sidenav-container{
+    height: 325px!important;
+}
 .mat-drawer-container{
     background-color: transparent;
 }
