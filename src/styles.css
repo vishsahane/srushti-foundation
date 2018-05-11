@@ -28,7 +28,7 @@ html,body{
 body{    
     background: url(./assets/images/banner-bg.jpg) no-repeat left bottom / cover;
     margin: 0px;
-    z-index: 2;
+    box-sizing: border-box;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .mat-drawer-container{
@@ -40,7 +40,14 @@ body{
 .home-section{
     position: relative
 }
-.home-section h1{
+.home-section h1{   
     font-size: 68px;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 599px){
+    body{
+        background-position: center bottom;
+    }
 }
